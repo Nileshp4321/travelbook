@@ -103,7 +103,7 @@ const LogInForm = ({ setUserLogIn }) => {
                     {/* Authentication error goes here */}
                     <p className="text-center mt-2 text-danger">{user.logInError}</p>
 
-                    <button className='btn btn-primary fw-semibold w-100' type="submit">Login</button>
+                    <button  className='btn  btn-primary    fw-semibold w-100' type="submit">Login</button>
 
                     {/* 'CreateAnAccount' will toggle this form */}
                     <p className="text-center mt-3 tw-text-sm md:tw-text-base">Don't have an account? <span onClick={() => setUserLogIn(false)}
