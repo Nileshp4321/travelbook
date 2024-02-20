@@ -134,11 +134,11 @@ const CreateAccountForm = ({ setUserLogIn }) => {
                     {/* Authentication error goes here */}
                     <p className="text-center mb-2 text-danger">{user.createAccountError}</p>
 
-                    <button className='btn btn-warning fw-semibold w-100' type="submit">Create an account</button>
+                    <button className='btn btn-primary fw-semibold w-100' type="submit">Create an account</button>
 
                     {/* 'CreateAnAccount' will toggle this form */}
                     <p className="text-center mt-3 tw-text-sm md:tw-text-base">Already have an account? <span onClick={() => setUserLogIn(true)}
-                        className="tw-underline tw-text-yellow-500 hover:tw-text-yellow-400">Login</span></p>
+                        className="tw-underline tw-text-blue-500 hover:tw-text-blue-400">Login</span></p>
                 </div>
             </form>
         </div>
