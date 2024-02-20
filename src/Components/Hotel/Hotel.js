@@ -48,4 +48,4 @@ const Hotel = ({ stay, stayDuration }) => {
     );
 };
 
-export default Hotel;
+export default Hotel ;    
