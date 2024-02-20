@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../public/Background.jpg) !important;
+  background-image: url("https://www.desktopbackground.org/download/1280x800/2015/07/21/982946_kerala-tourist-places_1280x806_h.jpg") !important;
   background: fixed;
   background-size: cover;
   background-repeat: no-repeat;
